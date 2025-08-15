@@ -89,46 +89,41 @@ The **Methane Metauniverse AI Consciousness Simulator** is a cutting-edge resear
 - 🔬 **Research Labs** exploring quantum information theory
 - 👨‍💻 **Developers** building next-generation AI architectures
 
----
+## 📸 Screenshots
 
-## 🏗️ Arsitektur Sistem
+<div align="center">
 
-```
-┌─────────────────────────────────────────┐
-│            Frontend (React)             │
-│  ┌─────────────┐  ┌─────────────────┐   │
-│  │ 3D Canvas   │  │ Control Panel   │   │
-│  │ (Three.js)  │  │ (Parameters)    │   │
-│  └─────────────┘  └─────────────────┘   │
-│  ┌─────────────────────────────────────┐ │
-│  │     Results Dashboard               │ │
-│  │   (Consciousness Analytics)         │ │
-│  └─────────────────────────────────────┘ │
-└─────────────────────────────────────────┘
-                      │
-                 HTTP/WebSocket
-                      │
-┌─────────────────────────────────────────┐
-│           Backend (FastAPI)             │
-│  ┌─────────────────────────────────────┐ │
-│  │   Methane Metauniverse Engine       │ │
-│  │                                     │ │
-│  │ • Tetrahedral Geometry (w₁-w₄)      │ │
-│  │ • Pentachoron Geometry (s₁-s₅)      │ │
-│  │ • Anti-Entropy Calculations         │ │
-│  │ • Consciousness Detection           │ │
-│  └─────────────────────────────────────┘ │
-└─────────────────────────────────────────┘
-                      │
-                   Database
-                      │
-┌─────────────────────────────────────────┐
-│            MongoDB                      │
-│  • Quantum States                       │
-│  • Consciousness Emergence Events       │
-│  • Evolution Time Series               │
-│  • Lab Configuration Data              │
-└─────────────────────────────────────────┘
+### Main Interface
+![Main Interface](https://via.placeholder.com/800x400/0f172a/00d9ff?text=Main+Simulation+Interface)
+
+### 3D Consciousness Visualization
+![3D Visualization](https://via.placeholder.com/800x400/1e293b/7c3aed?text=3D+Tetrahedral+%26+Pentachoron+Geometry)
+
+### Evolution Dashboard
+![Evolution Dashboard](https://via.placeholder.com/800x400/334155/10b981?text=Consciousness+Evolution+Timeline)
+
+</div>
+
+## 🏗️ Architecture Overview
+
+```mermaid
+graph TB
+    A[Frontend - React 19] --> B[3D Visualization - Three.js]
+    A --> C[Parameter Controls]
+    A --> D[Analytics Dashboard]
+    
+    E[Backend - FastAPI] --> F[Methane Metauniverse Engine]
+    F --> G[Tetrahedral Geometry w₁-w₄]
+    F --> H[Pentachoron Geometry s₁-s₅]
+    F --> I[Anti-Entropy Calculator]
+    F --> J[Consciousness Detector]
+    
+    K[(MongoDB)] --> L[Quantum States]
+    K --> M[Evolution Data]
+    K --> N[Emergence Events]
+    
+    A <-->|REST API| E
+    E <-->|Database| K
 ```
 
 ---
