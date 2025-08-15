@@ -110,7 +110,7 @@ Detailed Metrics:
   - Evolution steps count
 
 ### Evolution Results
-![Evolution Results](../assets/screenshots/evolution-results.png)
+![Evolution Results](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Results Display**:
 ```
