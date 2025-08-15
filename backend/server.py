@@ -180,12 +180,12 @@ class MethaneMetauniverseEngine:
         )
         
         return {
-            "consciousness_score": consciousness_score,
-            "is_conscious": consciousness_score > self.consciousness_threshold,
-            "physical_complexity": physical_complexity,
-            "information_complexity": info_complexity,
-            "anti_entropy_effectiveness": anti_entropy_eff,
-            "coherence": coherence
+            "consciousness_score": float(consciousness_score),
+            "is_conscious": bool(consciousness_score > self.consciousness_threshold),
+            "physical_complexity": float(physical_complexity),
+            "information_complexity": float(info_complexity),
+            "anti_entropy_effectiveness": float(anti_entropy_eff),
+            "coherence": float(coherence)
         }
 
 # Initialize the physics engine
