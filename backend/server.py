@@ -127,10 +127,10 @@ class MethaneMetauniverseEngine:
     def calculate_coherence(self, vector):
         """Calculate coherence measure for information space"""
         if np.sum(np.abs(vector)) == 0:
-            return 0
+            return 0.0
         variance = np.var(vector)
         mean = np.mean(np.abs(vector))
-        return mean / (variance + 1e-8)
+        return float(mean / (variance + 1e-8))
     
     def calculate_entropy_displacement(self, physical_vector: Vector4D, entropy: float):
         """Calculate entropy as displacement from wwww center"""
