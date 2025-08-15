@@ -142,8 +142,8 @@ class MethaneMetauniverseEngine:
         
         return {
             "displacement_vector": displacement_vector.tolist(),
-            "displacement_magnitude": displacement_magnitude,
-            "entropy_state": entropy
+            "displacement_magnitude": float(displacement_magnitude),
+            "entropy_state": float(entropy)
         }
     
     def calculate_counter_entropy(self, info_vector: Vector5D):
