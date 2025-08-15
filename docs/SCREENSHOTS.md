@@ -13,7 +13,7 @@
 ## 🖥️ Main Interface
 
 ### Primary Dashboard
-![Main Interface](https://quantum-ai-architect.preview.emergentagent.com/screenshots/main-interface.png)
+![Main Interface](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Description**: Main application interface showing the 4-tab navigation system with:
 - 🔬 **Simulasi** tab for parameter control and 3D visualization
