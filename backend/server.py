@@ -120,7 +120,7 @@ class MethaneMetauniverseEngine:
             
         return {
             "vertices": vertices,
-            "information_density": np.linalg.norm(s),
+            "information_density": float(np.linalg.norm(s)),
             "coherence": self.calculate_coherence(s)
         }
     
