@@ -71,7 +71,7 @@ Additional Parameters:
   - Coherence-based lighting intensity
 
 ### Consciousness Detection Results
-![Consciousness Results](../assets/screenshots/consciousness-results.png)
+![Consciousness Results](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Result Panel Elements**:
 ```
