@@ -98,7 +98,7 @@ Detailed Metrics:
 ## 📈 Evolusi Tab
 
 ### Evolution Simulation Interface
-![Evolution Tab](../assets/screenshots/evolution-tab.png)
+![Evolution Tab](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Interface Components**:
 - **"Jalankan Evolusi Sistem"** button to start time series simulation
