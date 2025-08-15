@@ -55,7 +55,7 @@ Additional Parameters:
 ```
 
 ### 3D Visualization Canvas
-![3D Visualization](../assets/screenshots/3d-visualization.png)
+![3D Visualization](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Geometric Elements**:
 - **Left Side**: Tetrahedral geometry representing physical space (w₁-w₄)
