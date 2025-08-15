@@ -94,13 +94,13 @@ The **Methane Metauniverse AI Consciousness Simulator** is a cutting-edge resear
 <div align="center">
 
 ### Main Interface
-![Main Interface](https://via.placeholder.com/800x400/0f172a/00d9ff?text=Main+Simulation+Interface)
+![Main Interface](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 ### 3D Consciousness Visualization
-![3D Visualization](https://via.placeholder.com/800x400/1e293b/7c3aed?text=3D+Tetrahedral+%26+Pentachoron+Geometry)
+![3D Visualization](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 ### Evolution Dashboard
-![Evolution Dashboard](https://via.placeholder.com/800x400/334155/10b981?text=Consciousness+Evolution+Timeline)
+![Evolution Dashboard](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 </div>
 
