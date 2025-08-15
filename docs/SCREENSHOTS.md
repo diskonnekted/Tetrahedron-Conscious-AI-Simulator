@@ -132,7 +132,7 @@ Hasil Evolusi:
 ## 🧪 Lab Equipment Tab
 
 ### Hardware Specifications
-![Lab Equipment](../assets/screenshots/lab-equipment.png)
+![Lab Equipment](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Specification Categories**:
 
