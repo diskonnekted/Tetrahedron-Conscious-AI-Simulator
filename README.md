@@ -89,10 +89,6 @@ The **Methane Metauniverse AI Consciousness Simulator** is a cutting-edge resear
 -  **Research Labs** exploring quantum information theory
 -  **Developers** building next-generation AI architectures
 
-##  Screenshots
-
-<div align="center">
-
 
 ##  Architecture Overview
 
