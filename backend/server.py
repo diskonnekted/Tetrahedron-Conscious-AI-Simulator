@@ -155,7 +155,7 @@ class MethaneMetauniverseEngine:
         intentionality = abs(s[0])  # s1 - meaning/intentionality
         
         counter_entropy = coherence * intentionality * 0.5
-        return min(counter_entropy, 1.0)
+        return float(min(counter_entropy, 1.0))
     
     def detect_consciousness_emergence(self, physical: Vector4D, information: Vector5D, 
                                      entropy: float, counter_entropy: float):
