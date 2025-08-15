@@ -41,7 +41,7 @@
 
 ### Screenshot Aplikasi
 
-![Main Interface](https://quantum-ai-architect.preview.emergentagent.com/screenshots/main-interface.png)
+![Main Interface](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 *Interface utama aplikasi dengan parameter controls dan visualisasi 3D*
 
 ### Target Pengguna
