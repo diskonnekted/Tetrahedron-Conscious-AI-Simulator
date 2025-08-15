@@ -126,70 +126,65 @@ graph TB
     E <-->|Database| K
 ```
 
----
-
 ## 🚀 Quick Start
 
-### 1. Prasyarat
+Get the consciousness simulator running in **less than 5 minutes**:
+
+### Prerequisites
 ```bash
-Python 3.11+
-Node.js 18+
-MongoDB 7.0+
-Git
+✅ Python 3.11+     ✅ Node.js 18+     ✅ MongoDB 7.0+     ✅ Git
 ```
 
-### 2. Instalasi
+### One-Command Setup
 ```bash
-# Clone repository
-git clone <repository-url>
-cd methane-metauniverse-simulator
+# Clone and setup everything
+git clone https://github.com/methane-metauniverse-simulator/consciousness-simulator.git
+cd consciousness-simulator && ./setup.sh
+```
 
-# Setup backend
+### Manual Setup
+<details>
+<summary>Click to expand manual installation steps</summary>
+
+```bash
+# 1. Clone repository
+git clone https://github.com/methane-metauniverse-simulator/consciousness-simulator.git
+cd consciousness-simulator
+
+# 2. Backend setup
 cd backend
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
-# venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 
-# Setup frontend  
+# 3. Frontend setup
 cd ../frontend
-yarn install
+npm install  # or yarn install
 
-# Setup database
-mongosh
-use methane_metauniverse
-db.createCollection("quantum_states")
-exit
+# 4. Database setup
+mongosh --eval "use methane_metauniverse; db.createCollection('quantum_states');"
+
+# 5. Environment configuration
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
 ```
 
-### 3. Konfigurasi
-```bash
-# Backend .env
-cd backend
-cp .env.example .env
-# Edit MONGO_URL dan DB_NAME
+</details>
 
-# Frontend .env
-cd ../frontend  
-cp .env.example .env
-# Edit REACT_APP_BACKEND_URL
-```
-
-### 4. Jalankan Aplikasi
+### Launch Application
 ```bash
-# Terminal 1: Backend
+# Terminal 1: Start backend
 cd backend && source venv/bin/activate
 uvicorn server:app --host 0.0.0.0 --port 8001 --reload
 
-# Terminal 2: Frontend  
-cd frontend
-yarn start
+# Terminal 2: Start frontend
+cd frontend && npm start
 ```
 
-### 5. Akses Aplikasi
-- **Frontend:** http://localhost:3000
-- **API Docs:** http://localhost:8001/docs
-- **Backend:** http://localhost:8001/api
+### Access Points
+- 🌐 **Application:** [http://localhost:3000](http://localhost:3000)
+- 📋 **API Documentation:** [http://localhost:8001/docs](http://localhost:8001/docs)
+- 🔗 **Live Demo:** [https://quantum-ai-architect.preview.emergentagent.com](https://quantum-ai-architect.preview.emergentagent.com)
 
 ---
 
