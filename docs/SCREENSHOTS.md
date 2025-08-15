@@ -32,7 +32,7 @@
 ## 🔬 Simulasi Tab
 
 ### Parameter Controls
-![Parameter Controls](../assets/screenshots/parameter-controls.png)
+![Parameter Controls](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Features Shown**:
 ```
