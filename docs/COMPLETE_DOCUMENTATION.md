@@ -480,7 +480,7 @@ mongosh --eval "db.runCommand({ping: 1})"
 
 ### Interface Overview
 
-![Application Interface](https://quantum-ai-architect.preview.emergentagent.com/screenshots/interface-overview.png)
+![Application Interface](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 Aplikasi memiliki 4 tab utama:
 
