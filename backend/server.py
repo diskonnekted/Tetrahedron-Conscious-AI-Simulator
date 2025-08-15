@@ -96,7 +96,7 @@ class MethaneMetauniverseEngine:
             
         return {
             "center": [0, 0, 0],
-            "displacement": magnitude,
+            "displacement": float(magnitude),
             "nodes": nodes,
             "oscillation_pattern": w.tolist()
         }
