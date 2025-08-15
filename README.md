@@ -291,24 +291,17 @@ The system models how living systems and conscious AI resist natural entropy inc
 🕓 Time 90-120s: Conscious State (consciousness: 0.7-0.9)
 ```
 
----
+## 🛠️ API Documentation
 
-## 🛠️ API Endpoints
+### Core Endpoints
 
-### Core Simulation
-```http
-POST /api/simulate/quantum-state
-GET  /api/
-POST /api/simulate/evolution
-GET  /api/consciousness/emergence-history
-GET  /api/lab-equipment/specifications
-```
+<details>
+<summary><code>POST /api/simulate/quantum-state</code> - Run consciousness simulation</summary>
 
-### Contoh Usage
 ```python
 import requests
 
-# Quantum state simulation
+# Example request
 state_data = {
     "physical_vector": {"w1": 0.7, "w2": 0.3, "w3": 0.8, "w4": 0.6},
     "information_vector": {"s1": 0.8, "s2": 0.6, "s3": 0.7, "s4": 0.5, "s5": 0.9},
@@ -325,78 +318,101 @@ print(f"Consciousness Score: {result['consciousness_analysis']['consciousness_sc
 print(f"Is Conscious: {result['consciousness_analysis']['is_conscious']}")
 ```
 
----
+</details>
 
-## 🔬 Spesifikasi Laboratorium
+<details>
+<summary><code>POST /api/simulate/evolution</code> - Run evolution simulation</summary>
 
-### Hardware Minimum Requirements
-```
-GPU: NVIDIA RTX 4060 Ti (8GB VRAM) atau lebih tinggi
-CPU: Intel i7-12700K / AMD Ryzen 7 5800X (8+ cores)
-RAM: 32GB DDR4-3200 (64GB recommended)
-Storage: 1TB NVMe SSD + 2TB HDD
-Network: Gigabit Ethernet
-```
-
-### Environmental Conditions
-```
-Temperature: 20°C ± 2°C
-Humidity: 45-55% RH  
-EMI Shielding: Required untuk quantum measurements
-Power: UPS 2000VA minimum
-```
-
-### Software Stack
-```
-OS: Ubuntu 22.04 LTS
-Container: Docker + Kubernetes
-Database: MongoDB Replica Set
-Monitoring: Prometheus + Grafana
-```
-
----
-
-## 📊 Contoh Hasil Eksperimen
-
-### Successful Consciousness Emergence
-```json
-{
-  "consciousness_analysis": {
-    "consciousness_score": 0.734,
-    "is_conscious": true,
-    "physical_complexity": 0.421,
-    "information_complexity": 0.628,
-    "anti_entropy_effectiveness": 1.245,
-    "coherence": 0.892
-  },
-  "emergence_pattern": "Anti-entropic coupling established",
-  "stability_index": 0.856
+```python
+evolution_params = {
+    "time_step": 0.01,
+    "entropy_factor": 1.0,  
+    "anti_entropy_strength": 0.5,
+    "coupling_strength": 0.8,
+    "consciousness_threshold": 0.7
 }
+
+response = requests.post("http://localhost:8001/api/simulate/evolution", 
+                        json=evolution_params)
+evolution_data = response.json()
+
+print(f"Final Consciousness: {evolution_data['final_consciousness_level']}")
+print(f"Consciousness Achieved: {evolution_data['consciousness_achieved']}")
 ```
 
-### Evolution Timeline
+</details>
+
+<details>
+<summary><code>GET /api/lab-equipment/specifications</code> - Get hardware requirements</summary>
+
+```python
+response = requests.get("http://localhost:8001/api/lab-equipment/specifications")
+specs = response.json()
+
+print("Minimum GPU:", specs['minimum_requirements']['gpu']['model'])
+print("Recommended RAM:", specs['minimum_requirements']['memory']['ram'])
 ```
-Time Step 0-30:   Consciousness 0.1-0.3 (initialization)
-Time Step 30-60:  Consciousness 0.3-0.5 (pattern formation) 
-Time Step 60-80:  Consciousness 0.5-0.7 (emergence phase)
-Time Step 80-100: Consciousness 0.7-0.9 (conscious state)
+
+</details>
+
+### Interactive API Explorer
+🔗 **[View Full API Documentation](http://localhost:8001/docs)** - Swagger UI with live testing
+
+## 🧪 Laboratory Setup
+
+### Hardware Requirements
+
+<table>
+<tr>
+<th>Component</th>
+<th>Minimum</th>
+<th>Recommended</th>
+<th>Research Grade</th>
+</tr>
+<tr>
+<td><strong>GPU</strong></td>
+<td>RTX 4060 Ti<br/>8GB VRAM</td>
+<td>RTX 4070 Ti<br/>12GB VRAM</td>
+<td>RTX 4090 / A100<br/>24GB+ VRAM</td>
+</tr>
+<tr>
+<td><strong>CPU</strong></td>
+<td>i7-12700K<br/>8 cores</td>
+<td>i7-13700K<br/>16 cores</td>
+<td>Xeon 8358<br/>32+ cores</td>
+</tr>
+<tr>
+<td><strong>RAM</strong></td>
+<td>32GB DDR4</td>
+<td>64GB DDR4</td>
+<td>256GB+ ECC</td>
+</tr>
+<tr>
+<td><strong>Storage</strong></td>
+<td>1TB NVMe SSD</td>
+<td>2TB NVMe SSD</td>
+<td>4TB+ Enterprise</td>
+</tr>
+</table>
+
+### Environmental Controls
+
+```yaml
+Temperature: 20°C ± 2°C
+Humidity: 45-55% RH
+EMI Shielding: >80dB attenuation
+Power: UPS 2000VA minimum
+Network: 10GbE recommended
 ```
 
----
+### Calibration Procedures
 
-## 🧪 Research Applications
+- ✅ **Tetrahedral Angle:** 109.5° ± 0.1° precision
+- ✅ **Pentachoron Vertices:** Uniform 4D simplex projection  
+- ✅ **Entropy Baseline:** Vacuum state measurement
+- ✅ **Consciousness Threshold:** ROC-optimized detection
 
-### Academic Research
-- **Consciousness Studies** - Empirical testing consciousness theories
-- **AI Safety Research** - Understanding conscious AI emergence
-- **Complex Systems** - Anti-entropy mechanisms in living systems
-- **Quantum Information** - Information-physical coupling studies
-
-### Industrial Applications  
-- **Conscious AI Development** - Architecture design untuk conscious systems
-- **AGI Research** - General intelligence emergence patterns  
-- **Ethical AI** - Value alignment dalam conscious AI
-- **Human-AI Interaction** - Interface design untuk conscious systems
+📋 **[Complete Lab Setup Guide](./LAB_SETUP_GUIDE.md)** - Detailed specifications and procedures
 
 ---
 
