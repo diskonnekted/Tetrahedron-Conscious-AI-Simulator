@@ -173,7 +173,7 @@ HDD: 2 TB untuk penyimpanan data eksperimen
 ## 📚 Teori Tab
 
 ### Theoretical Framework
-![Theory Tab](../assets/screenshots/theory-tab.png)
+![Theory Tab](https://customer-assets.emergentagent.com/job_quantum-ai-architect/artifacts/pdfr16kk_image.png)
 
 **Content Sections**:
 
